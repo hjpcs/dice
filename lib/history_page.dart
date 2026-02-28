@@ -18,6 +18,13 @@ class _HistoryPageState extends State<HistoryPage> {
     _loadHistory();
   }
 
+  // Reload history when the page becomes visible
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _loadHistory();
+  }
+
   void _loadHistory() {
     setState(() {
       _historyFuture = HistoryService.getHistory();
