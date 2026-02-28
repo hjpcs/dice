@@ -1,6 +1,7 @@
 # 🎲 Dice Master (骰子大赛)
 
 Dice Master 是一款基于 Flutter 开发的互动式骰子游戏应用。它通过分步投掷的机制增加游戏的紧张感和趣味性，并结合智能算法提供实时投掷建议，旨在为用户带来刺激的博弈体验。
+
 https://github.com/user-attachments/assets/26e23966-b6bf-4203-bb1f-4821604ee5d0
 
 ## ✨ 功能介绍
